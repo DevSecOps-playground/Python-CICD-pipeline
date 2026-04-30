@@ -9,8 +9,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-  steps:
-     -name: 'build'
-      runs: 
-      echo "Hello World!"
-  
+    steps:
+      - name: 'build'
+        runs: echo "Hello World!"
